@@ -1,0 +1,16 @@
+server:
+  port: 8085
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 562873518516-j8tp1t97q7kl2vpv8a6b4uhlpct10jsr.apps.googleusercontent.com
+            client-secret: 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
+          facebook:
+            client-id: 557916549658500
+            client-secret: 8d691f230cd4dcaf02e6fa33bc149ec4
+          github:
+            client-id: ed1e84c160343a83a2a2
+            client-secret: be00bec73417d1df5ef0a3fd8d21b6c3f947d598
